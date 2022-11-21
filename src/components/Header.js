@@ -1,5 +1,8 @@
 export default function Header() {
   return (
-    <h1> Header </h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/add-post">Add Post</a></li>
+    </ul>
   )
 }
