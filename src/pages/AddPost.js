@@ -6,7 +6,7 @@ export default function AddPost() {
   const submitPost = e => {
     e.preventDefault()
 
-    fetch('http://localhost:4040', {
+    fetch('https://blog-api-dm.azurewebsites.net', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
